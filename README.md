@@ -2,35 +2,43 @@
 
 The goal of this project is to:
 
-Understand customer journeys
+1) Understand customer journeys
 
-Analyze product and customer performance
+2) Analyze product and customer performance
 
-Identify trends in customer reviews and engagement
+3) Identify trends in customer reviews and engagement
 
-Build a dynamic dashboard for decision-making using Power BI
+4) Build a dynamic dashboard for decision-making using Power BI
 
 🧱 Tech Stack
 
-SQL: Data extraction, transformation, and loading (ETL)
+-> SQL: Data extraction, transformation, and loading (ETL)
 
-Power BI: Data visualization and dashboard creation
+-> Power BI: Data visualization and dashboard creation
 
-Python: Data enrichment of customer reviews
+-> Python: Data enrichment of customer reviews
 
-CSV/BAK: Raw and enriched data sources
+-> CSV/BAK: Raw and enriched data sources
 
 📁 File Structure
 
 File	Description
 1 - Marketing Analytics Business Case (Clean).pdf	Documentation outlining the project case and objectives
+
 2.1 dim_customers.sql	SQL script to create and populate the Customers dimension
+
 2.2 dim_products.sql	SQL script to create and populate the Products dimension
+
 2.3 fact_customer_journey.sql	Script for customer journey fact table
+
 2.4 fact_customer_reviews.sql	Script for reviews data
+
 2.5 fact_customer_reviews_enrich.csv	Enriched reviews dataset used in analysis
+
 2.6 fact_engagement_data.sql	Script for customer engagement metrics
+
 3.1 Calendar DAX Script.txt	DAX script to create a calendar table in Power BI
+
 3.2 customer_reviews_enrichment.py	Python script to enrich review data
 Dashboard.pbix	Final Power BI dashboard file
 PortfolioProject_MarketingAnalytics.bak	Backup of the SQL database used
